@@ -209,7 +209,8 @@ footer {
 /* Responsive design */
 @media (max-width: 768px) {
     nav ul {
-        flex-direction: column;
+        width: 100%;
+        flex-direction: row;
         align-items: center;
         gap: 1rem;
     }
