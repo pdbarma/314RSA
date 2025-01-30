@@ -3,45 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio and Blog</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Dev Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>My Portfolio</h1>
+    <div class="container">
         <nav>
             <ul>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#blog">Blog</a></li>
+                <li><a onclick="showSection('home')" class="active">Home</a></li>
+                <!-- <li><a onclick="showSection('about')">About</a></li> -->
+                <li><a onclick="showSection('projects')">Projects</a></li>
+                <li><a onclick="showSection('photography')">Photography</a></li>
+                <li><a onclick="showSection('blog')">Blog</a></li>
             </ul>
         </nav>
-    </header>
 
-    <main>
-        <section id="portfolio">
-            <h2>Portfolio</h2>
-            <div class="portfolio-item">Project 1</div>
-            <div class="portfolio-item">Project 2</div>
-            <div class="portfolio-item">Project 3</div>
+        <section id="home" class="active">
+            <h1>Hello, I'm [Name]</h1>
+            <p class="intro">Computer Science graduate passionate about software development, photography, and writing.</p>
+            
+            <!-- Featured Project Preview -->
+            <div class="home-section">
+                <h2>Featured Project</h2>
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Brief description of your most impressive project and technologies used.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+            </div>
+
+            <!-- Featured Photos Preview -->
+            <div class="home-section">
+                <h2>Featured Photos</h2>
+                <div class="featured-photos">
+                    <div class="photo-item">
+                        <img src="placeholder1.jpg" alt="Featured photo 1">
+                    </div>
+                    <div class="photo-item">
+                        <img src="placeholder2.jpg" alt="Featured photo 2">
+                    </div>
+                    <div class="photo-item">
+                        <img src="placeholder3.jpg" alt="Featured photo 3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Latest Blog Preview -->
+            <div class="home-section">
+                <h2>Latest Blog Post</h2>
+                <div class="project-card">
+                    <h3>Latest Post Title</h3>
+                    <p>Brief preview of your latest blog post...</p>
+                    <a onclick="showSection('blog')" style="cursor: pointer;">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Computer Science graduate passionate about software development and creative pursuits.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Brief description of the project and technologies used.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Brief description of the project and technologies used.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+                <div class="project-card">
+                    <h3>Project 3</h3>
+                    <p>Brief description of the project and technologies used.</p>
+                    <a href="#" target="_blank">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="photography">
+            <h2>Photography</h2>
+            <div class="photo-gallery">
+                <div class="photo-item">
+                    <img src="placeholder1.jpg" alt="Photography work 1">
+                </div>
+                <div class="photo-item">
+                    <img src="placeholder2.jpg" alt="Photography work 2">
+                </div>
+                <div class="photo-item">
+                    <img src="placeholder3.jpg" alt="Photography work 3">
+                </div>
+                <div class="photo-item">
+                    <img src="placeholder4.jpg" alt="Photography work 4">
+                </div>
+                <div class="photo-item">
+                    <img src="placeholder5.jpg" alt="Photography work 5">
+                </div>
+                <div class="photo-item">
+                    <img src="placeholder6.jpg" alt="Photography work 6">
+                </div>
+                <div class="photo-item">
+                    <img src="placeholder7.jpg" alt="Photography work 7">
+                </div>
+                <div class="photo-item">
+                    <img src="placeholder8.jpg" alt="Photography work 8">
+                </div>
+                <div class="photo-item">
+                    <img src="placeholder9.jpg" alt="Photography work 9">
+                </div>
+            </div>
         </section>
 
         <section id="blog">
             <h2>Blog</h2>
-            <article class="blog-post">
-                <h3>Blog Post Title 1</h3>
-                <p>This is a brief introduction to the blog post.</p>
-            </article>
-            <article class="blog-post">
-                <h3>Blog Post Title 2</h3>
-                <p>This is a brief introduction to the blog post.</p>
-            </article>
+            <div class="blog-container">
+                <div class="blog-post active">
+                    <h3>Blog Post Title 1</h3>
+                    <p>Blog post content goes here...</p>
+                </div>
+                <div class="blog-post">
+                    <h3>Blog Post Title 2</h3>
+                    <p>Blog post content goes here...</p>
+                </div>
+                <div class="blog-navigation">
+                    <button class="nav-button" onclick="previousPost()">←</button>
+                    <button class="nav-button" onclick="nextPost()">→</button>
+                </div>
+            </div>
         </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2025 My Portfolio</p>
-    </footer>
-
+        <footer>
+            <p>© 2025 Pirsa Debbarma</p>
+        </footer>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
