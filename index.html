@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dev Portfolio</title>
+    <title>PD 101</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,24 +11,35 @@
         <nav>
             <ul>
                 <li><a onclick="showSection('home')" class="active">Home</a></li>
-                <!-- <li><a onclick="showSection('about')">About</a></li> -->
                 <li><a onclick="showSection('projects')">Projects</a></li>
-                <li><a onclick="showSection('photography')">Photography</a></li>
                 <li><a onclick="showSection('blog')">Blog</a></li>
+                <li><a onclick="showSection('photography')">Photography</a></li>
+                <li><a onclick="showSection('Linkfolio')">Linkfolio</a></li>
             </ul>
         </nav>
 
         <section id="home" class="active">
-            <h1>Hello, I'm Pirsa Debbarma</h1>
-            <p class="intro">Computer Science Engineer passionate about software development, photography, and writing.</p>
+            <h1>Hello, I'm Pirsa Debbarma {314rsa}</h1>
+            <p class="intro">Computer Sc. Engineer, Tech enthusiast, A Lens explorer & Reader/writer.</p>
             
             <!-- Featured Project Preview -->
             <div class="home-section">
                 <h2>Featured Project</h2>
                 <div class="project-card">
                     <h3>Project 1</h3>
-                    <p>Brief description of your most impressive project and technologies used.</p>
-                    <a href="#" target="_blank">View Project</a>
+                    <p>Brief description of project and technologies used...</p>
+                    <a href="#">View Project</a>
+                    <a onclick="showSection('projects')" style="cursor: pointer;">More Projects</a>
+                </div>
+            </div>
+
+            <!-- Latest Blog Preview -->
+            <div class="home-section">
+                <h2>Latest Blog Post</h2>
+                <div class="project-card">
+                    <h3 id="latest-blog-title">Loading...</h3>
+                    <p id="latest-blog-preview">Please wait...</p>
+                    <a onclick="showSection('blog')" style="cursor: pointer;">Read More</a>
                 </div>
             </div>
 
@@ -47,44 +58,52 @@
                     </div>
                 </div>
             </div>
-
-            <!-- Latest Blog Preview -->
-            <div class="home-section">
-                <h2>Latest Blog Post</h2>
-                <div class="project-card">
-                    <h3>Latest Post Title</h3>
-                    <p>Brief preview of your latest blog post...</p>
-                    <a onclick="showSection('blog')" style="cursor: pointer;">Read More</a>
-                </div>
-            </div>
         </section>
 
-<!--         <section id="about">
-            <h2>About Me</h2>
-            <p>Computer Science & Engineering Graduate.</p>
-        </section> -->
-
+        <!-- PROJECTS SECTION ON CLICK -->
         <section id="projects">
             <h2>Projects</h2>
             <div class="projects-grid">
                 <div class="project-card">
                     <h3>Project 1</h3>
                     <p>Brief description of the project and technologies used.</p>
-                    <a href="#" target="_blank">View Project</a>
+                    <a href="#">View Project</a>
                 </div>
                 <div class="project-card">
                     <h3>Project 2</h3>
                     <p>Brief description of the project and technologies used.</p>
-                    <a href="#" target="_blank">View Project</a>
+                    <a href="#">View Project</a>
                 </div>
                 <div class="project-card">
                     <h3>Project 3</h3>
                     <p>Brief description of the project and technologies used.</p>
-                    <a href="#" target="_blank">View Project</a>
+                    <a href="#">View Project</a>
                 </div>
             </div>
         </section>
 
+        <!-- BLOGS SECTION ON CLICK -->
+        <section id="blog">
+            <h2>Blogs</h2>
+            <div class="blog-container">
+                <div id="blog-content">
+                    <p>Loading blog posts...</p>
+                </div>
+                <div class="blog-navigation">
+                    <button class="nav-button" onclick="previousPost()">←</button>
+                    <button class="nav-button" onclick="nextPost()">→</button>
+                </div>
+            </div>
+            
+            <!-- Blog List Navigation -->
+            <div class="blog-list-container">
+                <ul id="blog-list">
+                    <!-- Blog post links will be injected here dynamically -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- PHOTOGRAPH SECTION ON CLICK -->
         <section id="photography">
             <h2>Photography</h2>
             <div class="photo-gallery">
@@ -118,28 +137,37 @@
             </div>
         </section>
 
-        <section id="blog">
-            <h2>Blog</h2>
-            <div class="blog-container">
-                <div class="blog-post active">
-                    <h3>Blog Post Title 1</h3>
-                    <p>Blog post content goes here...</p>
-                </div>
-                <div class="blog-post">
-                    <h3>Blog Post Title 2</h3>
-                    <p>Blog post content goes here...</p>
-                </div>
-                <div class="blog-navigation">
-                    <button class="nav-button" onclick="previousPost()">←</button>
-                    <button class="nav-button" onclick="nextPost()">→</button>
-                </div>
+        <!-- LINKFOLIO SECTION ON CLICK -->
+        <section id="Linkfolio">
+            <h2>Linkfolio</h2>
+            <div class="linkfolio-card">
+                <ul class="social-links">
+                    <li>
+                        <a href="https://www.instagram.com/314rsa" target="_blank">
+                            <img src="icons/instagram.png" alt="Instagram"> Instagram
+                            <p style="font-style: italic; font-size: 0.9rem;">: 
+                                {I post the photographs clicked by me here...}</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://pxsaur" target="_blank">
+                            <img src="icons/twitter.png" alt="X (Twitter)"> X (Twitter)
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/pirsadebbarma" target="_blank">
+                            <img src="icons/linkedin.png" alt="LinkedIn"> LinkedIn
+                        </a>
+                    </li>
+                </ul>
             </div>
         </section>
-
+        
         <footer>
             <p>© 2025 Pirsa Debbarma</p>
         </footer>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
