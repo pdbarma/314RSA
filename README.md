@@ -1,2 +1,2 @@
-<p align="center";>To be or not to be - William Shakespear(Hamlet)
+<p align="center";>真理最为强大。(Zhēnlǐ zuì wéi qiángdà.) – Truth is the strongest.
 </p>
