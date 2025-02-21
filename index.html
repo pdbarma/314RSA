@@ -84,22 +84,24 @@
 
         <!-- BLOGS SECTION ON CLICK -->
         <section id="blog">
-            <h2>Blogs</h2>
-            <div class="blog-container">
-                <div id="blog-content">
-                    <p>Loading blog posts...</p>
-                </div>
-                <div class="blog-navigation">
+            <div id="blog-nav">
+                <h2>Blogs</h2>
+                <div class="blog-navigation-bar">
                     <button class="nav-button" onclick="previousPost()">←</button>
                     <button class="nav-button" onclick="nextPost()">→</button>
                 </div>
             </div>
-            
-            <!-- Blog List Navigation -->
-            <div class="blog-list-container">
-                <ul id="blog-list">
-                    <!-- Blog post links will be injected here dynamically -->
-                </ul>
+            <div class="blog-container">
+                <div id="blog-content">
+                    <p>Loading blog posts...</p>
+                </div>
+
+                <!-- Blog List Navigation -->
+                <div class="blog-list-container">
+                    <ul id="blog-list">
+                        <!-- Blog post links will be injected here dynamically -->
+                    </ul>
+                </div>
             </div>
         </section>
 

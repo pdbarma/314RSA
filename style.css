@@ -234,13 +234,21 @@ h1, h2 {
     font-style: italic;
 }
 
-.blog-navigation {
+#blog-nav {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
+#blog-nav h2 {
+    margin: 0;
+}
+
+.blog-navigation-bar {
+    display: flex;
+    gap: 0.5rem;
+}
 .nav-button {
     background: #1e1e1e;
     border: 1px solid #ffffff;
