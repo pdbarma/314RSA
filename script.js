@@ -58,7 +58,7 @@ function loadLatestPost() {
             const tempDiv = document.createElement('div');
             tempDiv.innerHTML = htmlContent;
             document.getElementById('latest-blog-title').textContent = tempDiv.querySelector('h1').textContent;
-            document.getElementById('latest-blog-preview').textContent = tempDiv.querySelector('p').textContent.substring(0, 100) + '...';
+            document.getElementById('latest-blog-preview').textContent = tempDiv.querySelector('p').textContent.substring(0, 300) + '...';
         })
         .catch(error => console.error("Error loading latest post:", error));;
 }
