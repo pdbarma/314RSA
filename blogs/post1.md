@@ -76,11 +76,6 @@ Your smartphone requires particular attention:
 2. Disable ad personalization
 3. Consider privacy-focused alternatives for common apps
 
-### Recommended Privacy Apps:
-- DuckDuckGo for browsing
-- ProtonMail for secure email
-- OsmAnd for navigation
-
 # Final Thoughts
 
 Digital privacy isn't about paranoia – it's about maintaining control over your personal information in an increasingly connected world. The steps outlined above aren't just precautions; they're necessary adaptations to our current digital environment.
