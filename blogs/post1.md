@@ -14,7 +14,7 @@ We’ve all seen the rise of powerful AI models—ChatGPT, Google’s Gemini, Gi
 
 As it turns out, AI is a hacker’s best friend. It’s surprisingly capable of assisting cybercriminals in both digital exploitation and human manipulation. One of its most alarming uses? Writing malware.
 
-While AI is far from replacing programmers, it is shockingly effective at writing dangerous code. To illustrate, I once asked an AI model to generate malware (for educational purposes only). In seconds, it produced a polymorphic, self-encrypting virus—one that can alter its appearance, making it incredibly difficult for traditional antivirus solutions to detect. If a bored high schooler can generate such malware in seconds, imagine what a skilled hacker with more time and resources could do. Terrifying, isn’t it? It gets worse.
+While AI is far from replacing programmers, it is shockingly effective at writing dangerous code. To illustrate, I once asked an AI model to generate malware (for educational purposes only). In seconds, it produced a polymorphic, self-encrypting virus—one that can alter its appearance, making it incredibly difficult for traditional antivirus solutions to detect. Using AI, even a bored high schooler can generate such malware in seconds, Now imagine what a skilled hacker with more time and resources could do. Terrifying, isn’t it? It gets worse.
 
 # The Growing Threat: Social Engineering and AI
 
