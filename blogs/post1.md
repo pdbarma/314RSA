@@ -31,6 +31,8 @@ Another growing concern is the rise of deepfake technology. AI-powered face swap
 
 Let me walk you through some straightforward steps to protect your data:
 
+### Remember to switch on Two-Factor Authentication if available. Secure your Online Presence as much as possible.
+
 ## Social Media Security
 
 ### Instagram
@@ -57,7 +59,9 @@ Access the Meta Privacy Center to opt out of AI training. The process is not str
 Visit your Google Activity controls to manage:
 - Web & App Activity
 - Ad personalization
-- AI training permissions
+- Google History on different Apps
+- Account login history, log out from all old devices.
+- AI training permissions(in future if any*)
 
 ## Data Scraping Prevention
 
