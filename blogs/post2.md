@@ -1,5 +1,6 @@
-# Respect vs. Validation: Understanding True Connection in Friendships and Work
+# A Beginner's Guide to Building No-Code Applications
 
-Lorem ipsum dolor sit amet , consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+There is no Guide to Building No-Code Application without the knowledge of what goes behind the Application. So, the short answer is NO! —at least not yet. If someone on the internet claims they can teach you how to build an application using AI and other technologies without any knowledge of the underlying logic, they are either oversimplifying or misleading you.
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+But does that mean you should stop yourself from building an application? Absolutely not!
+Here, In this blog we are gonna  discuss the quickest and most efficient way to build a App possibly without any Code.
