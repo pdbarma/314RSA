@@ -28,10 +28,12 @@ Another growing concern is the rise of deepfake technology. AI-powered face swap
 
 # Practical Steps to Secure Your Digital Presence
 
-Before we begin, Things to always remember:
-_1.*Remember to switch on Two-Factor Authentication if available. Secure your Online Presence as much as possible.*_
-_2.*Always check Google Account Login History & subscriptions once in awhile*_
-_3.*For Public Social Media Accounts, Always make sure to double Check if any pictures or videos are safe or has any private informations that maybe harmful if kept online, These details include your full address, mobile numbers, date of birth and more*_
+Before we begin, things to always remember:
+
+_1. *Remember to switch on Two-Factor Authentication if available. Secure your online presence as much as possible.*_
+_2. *Always check your Google Account login history and subscriptions once in a while.*_
+_3. *For public social media accounts, always make sure to double-check if any pictures or videos are safe or contain any private information that may be harmful if kept online. These details include your full address, mobile numbers, date of birth, and more.*_
+
 
 ## Let me walk you through some straightforward steps to protect your data:
 
