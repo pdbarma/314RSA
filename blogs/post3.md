@@ -88,5 +88,5 @@ A **pull request** lets you propose changes to someone else's repository.
 ---
 This guide covers only the **most essential** GitHub features to help you get started quickly. Remember, GitHub is a powerful tool with many more features to explore. If you're new, stick to these basics, and you'll be productive in no time.
 
-**Happy coding! 🚀 Thank You for reading**
+**Thank You for reading, Happy coding Fam! 🚀**
 
