@@ -1,4 +1,4 @@
-# AI Tools 101: A Guide to Running Local LLMs and AI Image Generation
+# AI Tools 101: A Guide to Running LLMs and AI Image Generation locally
 
 Hey folks, Just A Simple Tutorial Blog for running AI-Tools locally on your computer/laptop.
 The AI-Tools in this blog are - DeepSeekr1 using Ollama framework inside docker wrapper.
