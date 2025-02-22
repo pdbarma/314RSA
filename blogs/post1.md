@@ -37,7 +37,7 @@ _3. *For public social media accounts, always make sure to double-check if any p
 
 ## Let me walk you through some straightforward steps to protect your data:
 
-## Social Media Security
+### Social Media Security
 
 ### Instagram
 Straightforward process:
