@@ -60,15 +60,20 @@ Here's how to maintain control over your data across major platforms:
 Access the Meta Privacy Center to opt out of AI training. The process is not straightforward but very important.
 
 Currently To there is no option to avoid the aggressive policies of Meta Company but, We have been given a very tricky way of just flagging our account for opting out of AI-Training: The process is below -
-- Go to the profile page of Instagram
-- Click on the triple bar options and go below to find '(i)about' option
-- Click on Privacy Policies
-- Upon opening the page, Click on the upper-right corner Triple bar options again
-- And select Other Policies & articles > HOW META USES INFORMATION FOR GEN. AI MODELS AND FEATURES
-- Scroll Down and select - Learn more and submit requests
-- Fill out the form and prompts that is your name and anything that can be your information in general like username etc.
-- Click submit, This is the only way to do something which is also not sure if Meta will ever comply with the Requests.
-- Stay Due diligent and Safe
+1. **Go to your Instagram profile page.**  
+2. **Open the menu** by clicking on the triple-bar (☰) options.  
+3. **Scroll down and select** the **"(i) About"** option.  
+4. **Tap on "Privacy Policies."**  
+5. Once the page opens, **click on the triple-bar (☰) menu** in the upper-right corner again.  
+6. **Navigate to**: Other Policies & Articles > **"How Meta Uses Information for Gen AI Models and Features."**  
+7. **Scroll down and select** **"Learn More and Submit Requests."**  
+8. **Fill out the form**, including your name, username, or any general personal information requested.  
+9. **Click "Submit."**  
+
+### Important Notes:  
+- This is currently the only way to submit such a request.  
+- **Meta's response to these requests is uncertain.** There is no guarantee they will comply.  
+- **Stay diligent and prioritize your privacy.**  
 
 ### Google
 Visit your Google Activity controls to manage:
