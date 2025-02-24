@@ -59,6 +59,17 @@ Here's how to maintain control over your data across major platforms:
 ### Meta (Facebook & Instagram)
 Access the Meta Privacy Center to opt out of AI training. The process is not straightforward but very important.
 
+Currently To there is no option to avoid the aggressive policies of Meta Company but, We have been given a very tricky way of just flagging our account for opting out of AI-Training: The process is below -
+- Go to the profile page of Instagram
+- Click on the triple bar options and go below to find '(i)about' option
+- Click on Privacy Policies
+- Upon opening the page, Click on the upper-right corner Triple bar options again
+- And select Other Policies & articles > HOW META USES INFORMATION FOR GEN. AI MODELS AND FEATURES
+- Scroll Down and select - Learn more and submit requests
+- Fill out the form and prompts that is your name and anything that can be your information in general like username etc.
+- Click submit, This is the only way to do something which is also not sure if Meta will ever comply with the Requests.
+- Stay Due diligent and Safe
+
 ### Google
 Visit your Google Activity controls to manage:
 - Web & App Activity
