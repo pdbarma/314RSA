@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function() {
     viewer.style.alignItems = "center";
     viewer.style.justifyContent = "center";
     viewer.style.zIndex = "1000";
-    viewer.innerHTML = `<div class="viewer-content" style="position: relative;"><img id="viewer-img" src="" alt="" style="max-width: 90vw; max-height: 90vh;"><button id="close-viewer" style="position: absolute; top: 10px; right: 10px; background: red; color: white; border: none; padding: 2px; font-size: 1.5rem; cursor: pointer;">×</button></div>`;
+    viewer.innerHTML = `<div class="viewer-content" style="position: relative;"><img id="viewer-img" src="" alt="" style="max-width: 90vw; max-height: 90vh; pointer-events: none;"><button id="close-viewer" style="position: absolute; top: 10px; right: 10px; background: red; color: white; border: none; padding: 2px; font-size: 1.5rem; cursor: pointer;">×</button></div>`;
     document.body.appendChild(viewer);
 
     const viewerImg = document.getElementById("viewer-img");
@@ -112,6 +112,14 @@ document.addEventListener("DOMContentLoaded", function() {
         img.addEventListener("contextmenu", function(event) {
             event.preventDefault();
         });
+    });
+
+    viewerImg.addEventListener("contextmenu", function(event) {
+        event.preventDefault();
+    });
+
+    viewerImg.addEventListener("dragstart", function(event) {
+        event.preventDefault();
     });
 });
 
