@@ -60,10 +60,10 @@ function loadLatestPost() {
             document.getElementById('latest-blog-title').textContent = tempDiv.querySelector('h1').textContent;
             document.getElementById('latest-blog-preview').textContent = tempDiv.querySelector('p').textContent.substring(0, 300) + '...';
         })
-        .catch(error => console.error("Error loading latest post:", error));;
+        .catch(error => console.error("Error loading latest post:", error));
 }
 
-//populate the bloglist
+// Populate the blog list
 function loadBlogList() {
     const blogListContainer = document.getElementById('blog-list');
     blogListContainer.innerHTML = ""; // Clear previous list
@@ -75,10 +75,49 @@ function loadBlogList() {
     });
 }
 
+// Image Viewer Functionality
+document.addEventListener("DOMContentLoaded", function() {
+    const images = document.querySelectorAll(".photo-item img");
+    const viewer = document.createElement("div");
+    viewer.id = "image-viewer";
+    viewer.style.position = "fixed";
+    viewer.style.top = "0";
+    viewer.style.left = "0";
+    viewer.style.width = "100vw";
+    viewer.style.height = "100vh";
+    viewer.style.background = "rgba(0, 0, 0, 0.8)";
+    viewer.style.display = "none";
+    viewer.style.alignItems = "center";
+    viewer.style.justifyContent = "center";
+    viewer.style.zIndex = "1000";
+    viewer.innerHTML = `<div class="viewer-content" style="position: relative;"><img id="viewer-img" src="" alt="" style="max-width: 90vw; max-height: 90vh;"><button id="close-viewer" style="position: absolute; top: 10px; right: 10px; background: red; color: white; border: none; padding: 2px; font-size: 1.5rem; cursor: pointer;">×</button></div>`;
+    document.body.appendChild(viewer);
+
+    const viewerImg = document.getElementById("viewer-img");
+    const closeViewer = document.getElementById("close-viewer");
+
+    images.forEach(img => {
+        img.addEventListener("click", function() {
+            viewer.style.display = "flex";
+            viewerImg.src = this.src;
+        });
+    });
+
+    closeViewer.addEventListener("click", function() {
+        viewer.style.display = "none";
+    });
+
+    // Prevent opening image in new tab
+    images.forEach(img => {
+        img.addEventListener("contextmenu", function(event) {
+            event.preventDefault();
+        });
+    });
+});
 
 // Initial Load
 document.addEventListener('DOMContentLoaded', function() {
     showPost(currentPost);
     loadLatestPost();
-    loadBlogList(); // Load the list when the page loads
+    loadBlogList();
 });
