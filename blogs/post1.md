@@ -59,7 +59,7 @@ Here's how to maintain control over your data across major platforms:
 ### Meta (Facebook & Instagram)
 Access the Meta Privacy Center to opt out of AI training. The process is not straightforward but very important.
 
-Currently To there is no option to avoid the aggressive policies of Meta Company but, We have been given a very tricky way of just flagging our account for opting out of AI-Training: The process is below -
+Currently there is no option to avoid the aggressive policies of Meta Company but, We have been given a very tricky way of just flagging our account for opting out of AI-Training incase You find any AI-related content to your account: The process is below -
 1. **Go to your Instagram profile page.**  
 2. **Open the menu** by clicking on the triple-bar (☰) options.  
 3. **Scroll down and select** the **"(i) About"** option.  
