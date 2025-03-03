@@ -66,8 +66,8 @@ nav a:hover::after {
 section {
     margin-bottom: 4rem;
     opacity: 0;
-    transform: translateY(20px);
-    animation: fadeIn 0.8s forwards;
+    transform: translateY(12px);
+    animation: fadeIn 0.6s forwards;
     display: none;
 }
 
@@ -97,9 +97,9 @@ h1, h2 {
 
 .featured-photos {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    max-width: 800px;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 0.3rem;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -144,12 +144,11 @@ h1, h2 {
 /* Photography styles */
 .photo-gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 0.2rem;
     max-width: 1000px;
     margin: 0 auto;
-    aspect-ratio: 1;
 }
 
 .photo-item {
@@ -175,13 +174,92 @@ h1, h2 {
     position: relative;
 }
 
-#blog-content {
+/* #blog-content {
     background-color: #1e1e1e;
     padding: 2rem;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     line-height: 1.8;
+} */
+
+.blogs-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
 }
+
+.blog-card {
+    background-color: #1e1e1e;
+    padding: 1.5rem;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+
+.blog-card h3 {
+    margin-bottom: 1rem;
+}
+
+.blog-card a {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.blog-card a:hover {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+/* Blog Viewer (Popup) */
+#blog-viewer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.blog-viewer-content {
+    background: #1e1e1e;
+    padding: 2rem;
+    max-width: 800px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 10px;
+    position: relative;
+    color: #ffffff;
+}
+
+#close-blog {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
 
 #blog-content h1, 
 #blog-content h2, 
@@ -395,9 +473,9 @@ footer {
     }
 
     .photo-item {
-        width: 90%;
+        width: 100%;
         max-width: 400px;
-        aspect-ratio: 4/3;
+        aspect-ratio: 3/4;
         overflow: hidden;
         border-radius: 8px;
     }
