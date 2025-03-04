@@ -87,29 +87,18 @@
 
         <!-- BLOGS SECTION ON CLICK -->
         <section id="blog">
+            <h2>Blogs</h2>
             <div class="blogs-grid" id="blog-nav">
-                <h2>Blogs</h2>
-                <div class="blog-navigation-bar">
-                    <button class="nav-button" onclick="previousPost()">←</button>
-                    <button class="nav-button" onclick="nextPost()">→</button>
-                </div>
+                <div id="blog-viewer">
+                    <div class="blog-container">
+                        <div id="blog-content">
+                            <p>Loading blog posts...</p>
+                        </div>
+                    </div>
+                   </div>
             </div>
-
-           <div id="blog-viewer">
-            <div class="blog-container">
-                <div id="blog-content">
-                    <p>Loading blog posts...</p>
-                </div>
-
-                <!-- Blog List Navigation -->
-                <div class="blog-list-container">
-                    <ul id="blog-list">
-                        <!-- Blog post links will be injected here dynamically -->
-                    </ul>
-                </div>
-            </div>
-           </div>
         </section>
+  
 
         <!-- PHOTOGRAPH SECTION ON CLICK -->
         <section id="photography">
@@ -179,7 +168,16 @@
                 </ul>
             </div>
         </section>
-        
+
+        <!-- Full Blog Post Section -->
+        <section id="blog-post" style="display:none;">
+            <div id="blog-post-content">
+            <!-- Full blog post content will be injected here -->
+            </div>
+            <button onclick="showSection('blog')">Back to Blog List</button>
+        </section>
+  
+
         <footer>
             <p>© 2025 Pirsa Debbarma</p>
         </footer>
